@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.EplAddIn.Costura", "Suplanus.EplAddIn.Costura\Suplanus.EplAddIn.Costura.csproj", "{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.Test.Library", "Suplanus.EplAddIn.Library\Suplanus.Test.Library.csproj", "{E096B96D-D59C-45D9-97AD-A979B9832F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.EplAddIn.AddOn1", "Suplanus.EplAddIn.AddOn1\Suplanus.EplAddIn.AddOn1.csproj", "{EBE380C3-54C7-4FCE-A772-0794A38FA917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.EplAddIn.AddOn2", "Suplanus.EplAddIn.AddOn2\Suplanus.EplAddIn.AddOn2.csproj", "{25C32B20-F73E-45D8-BB49-17F86ADCCDB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Costura", "Costura", "{34F645AD-48C7-4FD8-8DCA-BD57904D84D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addon", "Addon", "{307FE86E-5EF0-493A-9C6D-DA056CADB69D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E096B96D-D59C-45D9-97AD-A979B9832F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E096B96D-D59C-45D9-97AD-A979B9832F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E096B96D-D59C-45D9-97AD-A979B9832F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E096B96D-D59C-45D9-97AD-A979B9832F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE380C3-54C7-4FCE-A772-0794A38FA917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE380C3-54C7-4FCE-A772-0794A38FA917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE380C3-54C7-4FCE-A772-0794A38FA917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE380C3-54C7-4FCE-A772-0794A38FA917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C32B20-F73E-45D8-BB49-17F86ADCCDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C32B20-F73E-45D8-BB49-17F86ADCCDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C32B20-F73E-45D8-BB49-17F86ADCCDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C32B20-F73E-45D8-BB49-17F86ADCCDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9F7A6AB-3193-41A9-8EDC-B765B26D1C84} = {34F645AD-48C7-4FD8-8DCA-BD57904D84D5}
+		{EBE380C3-54C7-4FCE-A772-0794A38FA917} = {307FE86E-5EF0-493A-9C6D-DA056CADB69D}
+		{25C32B20-F73E-45D8-BB49-17F86ADCCDB1} = {307FE86E-5EF0-493A-9C6D-DA056CADB69D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9EA32DA-02D9-45C1-B1FA-C965D5D1FD4D}
+	EndGlobalSection
+EndGlobal
