@@ -24,7 +24,7 @@ Die Datei oder Assembly Suplanus.EplAddIn.Library, Version=1.0.0.0, Culture=neut
 - Sign the assembly
 - Load with Runtime License
 
-[**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/example/Costura)
+[**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/Examples/Costura)
 
 ---
 
@@ -51,4 +51,4 @@ The DLLs are saved in different directories. Thats good. But EPLAN can only load
 - Load the addons
 - Execute Actions
 
-[**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/example/Costura)
+[**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/Examples/AddOn)
