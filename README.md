@@ -4,6 +4,8 @@ Also a demo how to use the same library (DLL) in different addins.
 - [❌ Costura](#%e2%9d%8c-costura)
 - [❌ AddOn](#%e2%9d%8c-addon)
 
+---
+
 ## ❌ Costura
 
 **Description**
