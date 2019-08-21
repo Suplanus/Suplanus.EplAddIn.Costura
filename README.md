@@ -3,6 +3,7 @@ Also a demo how to use the same library (DLL) in different addins.
 
 - [❌ Costura](#%e2%9d%8c-costura)
 - [❌ AddOn](#%e2%9d%8c-addon)
+- [❌ Rename](#%e2%9d%8c-rename)
 
 ---
 
@@ -54,3 +55,12 @@ The DLLs are saved in different directories. Thats good. But EPLAN can only load
 - Execute Actions
 
 [**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/Examples/AddOn)
+
+## ❌ Rename
+
+**Description**
+
+Rename each DLL at build.
+
+**Problem**
+The namespaces and the file name needed to be renamed. This is very difficulty for NuGets. For WPF I think its not possible because this needs strong paths for resources.
