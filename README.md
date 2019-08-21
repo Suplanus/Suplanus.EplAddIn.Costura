@@ -56,6 +56,8 @@ The DLLs are saved in different directories. Thats good. But EPLAN can only load
 
 [**Example**](https://github.com/Suplanus/Suplanus.Eplan.MergeExample/tree/master/Examples/AddOn)
 
+---
+
 ## ❌ Rename
 
 **Description**
