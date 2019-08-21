@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Costura.Fody.3.1.5\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.1.5\build\Costura.Fody.props')" />
+  <Import Project="..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -43,8 +43,8 @@
     <DelaySign>true</DelaySign>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
-      <HintPath>..\packages\ControlzEx.4.0.0-alpha0189\lib\net45\ControlzEx.dll</HintPath>
+    <Reference Include="Costura, Version=4.1.0.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.4.1.0\lib\net40\Costura.dll</HintPath>
     </Reference>
     <Reference Include="Eplan.EplApi.AFu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
@@ -56,102 +56,12 @@
       <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Baseu.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Eplan.EplApi.DataModelu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.DataModelu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.EServicesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.EServicesu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.Guiu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Guiu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.HEServicesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.HEServicesu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.MasterDatau, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.MasterDatau.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.RecorderToolsu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.RecorderToolsu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.RemoteClientu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.RemoteClientu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.Remotingu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Remotingu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.Simulationu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=AMD64">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Simulationu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Eplan.EplApi.Starteru, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Starteru.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Eplan.EplApi.Systemu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.Systemu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplApi.WebServiceu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ecea1219c93267ce, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplApi.WebServiceu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplSDK.WPF.Controlsu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplSDK.WPF.Controlsu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplSDK.WPF.DB.Interfacesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplSDK.WPF.DB.Interfacesu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplSDK.WPF.DBu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplSDK.WPF.DBu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplSDK.WPF.Interfacesu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplSDK.WPF.Interfacesu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Eplan.EplSDK.WPFu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=57aaa27e22f7b107, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\EPLAN\Platform\2.7.3\Bin\Eplan.EplSDK.WPFu.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\ControlzEx.4.0.0-alpha0189\lib\net45\System.Windows.Interactivity.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs" />
@@ -166,20 +76,18 @@
     <Content Include="FodyWeavers.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Suplanus.EplAddIn.Library\Suplanus.EplAddIn.Library.csproj">
+    <ProjectReference Include="..\Suplanus.EplAddIn.Library\Suplanus.Test.Library.csproj">
       <Project>{e096b96d-d59c-45d9-97ad-a979b9832f19}</Project>
-      <Name>Suplanus.EplAddIn.Library</Name>
+      <Name>Suplanus.Test.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.6.0.0\build\Fody.targets" Condition="Exists('..\packages\Fody.6.0.0\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Costura.Fody.3.1.5\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.1.5\build\Costura.Fody.props'))" />
-    <Error Condition="!Exists('..\packages\Costura.Fody.3.1.5\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.1.5\build\Costura.Fody.targets'))" />
-    <Error Condition="!Exists('..\packages\Fody.3.2.10\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.3.2.10\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Fody.6.0.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.0.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.4.1.0\build\Costura.Fody.props'))" />
   </Target>
-  <Import Project="..\packages\Costura.Fody.3.1.5\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.3.1.5\build\Costura.Fody.targets')" />
-  <Import Project="..\packages\Fody.3.2.10\build\Fody.targets" Condition="Exists('..\packages\Fody.3.2.10\build\Fody.targets')" />
 </Project>

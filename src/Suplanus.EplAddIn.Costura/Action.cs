@@ -1,5 +1,5 @@
 ﻿using Eplan.EplApi.ApplicationFramework;
-using Suplanus.EplAddIn.Library;
+using Suplanus.Test.Library;
 
 namespace Suplanus.EplAddIn.Costura
 {
@@ -18,11 +18,11 @@ namespace Suplanus.EplAddIn.Costura
 
     public bool Execute(ActionCallingContext oActionCallingContext)
     {
-      Foo.Bar();
+      Test.Library.Test.Costura();
 
       return true;
     }
 
-    
+
   }
 }
