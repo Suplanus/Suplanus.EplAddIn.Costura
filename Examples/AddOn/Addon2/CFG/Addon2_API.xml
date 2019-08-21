@@ -1,0 +1,11 @@
+<Settings format="2">
+  <CAT name="STATION">
+    <MOD name="AF">
+      <LEV1 name="ApiModules">
+        <Setting name="Addon2" type="string">
+          <Val>Suplanus.EplAddIn.AddOn2</Val>
+        </Setting>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>

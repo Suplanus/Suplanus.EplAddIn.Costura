@@ -1,0 +1,31 @@
+<Settings format="2">
+  <CAT name="INSTALL">
+    <MOD name="AF">
+      <Setting name="ApplicationModifier" type="string" info="Name modification for specific application configuration">
+        <Val>Addon2</Val>
+      </Setting>
+    </MOD>
+  </CAT>
+  <CAT name="STATION">
+    <MOD name="SYSTEM">
+      <LEV1 name="Addon2">
+        <Setting name="XMLPath" type="string" info="patched path to install.xml">
+          <Val>\\Mac\Home\Documents\EPLAN\2.7\Add-ons\Addon2\CFG\</Val>
+        </Setting>
+        <Setting name="Version" type="string" info="version nr of this addon">
+          <Val>1.0.0</Val>
+        </Setting>
+        <LEV2 name="MainVersion">
+          <LEV3 name="Basic">
+            <Setting name="Licences" type="string" info="Licence of Main Product to identify it">
+              <Val>700</Val>
+            </Setting>
+            <Setting name="Versions" type="string" info="Version of Main Product to identify it">
+              <Val>2.7.*</Val>
+            </Setting>
+          </LEV3>
+        </LEV2>
+      </LEV1>
+    </MOD>
+  </CAT>
+</Settings>
