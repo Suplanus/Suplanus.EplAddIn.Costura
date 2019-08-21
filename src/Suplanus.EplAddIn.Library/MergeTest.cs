@@ -3,12 +3,12 @@ using Eplan.EplApi.DataModel;
 
 namespace Suplanus.Test.Library
 {
-  public class Test
+  public class MergeTest
   {
     // ReSharper disable once NotAccessedField.Local
     private int _projectsCount;
 
-    public Test()
+    public MergeTest()
     {
       _projectsCount = new ProjectManager().OpenProjects.Length; // Do this to ensure EPLAN API called
     }
@@ -20,7 +20,7 @@ namespace Suplanus.Test.Library
 
     public static void Normal()
     {
-      MessageBox.Show("1");
+      MessageBox.Show("2");
     }
   }
 }

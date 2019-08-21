@@ -1,5 +1,4 @@
 ﻿using Eplan.EplApi.ApplicationFramework;
-using Suplanus.Test.Library;
 
 namespace Suplanus.EplAddIn.AddOn1
 {
@@ -18,7 +17,7 @@ namespace Suplanus.EplAddIn.AddOn1
 
     public bool Execute(ActionCallingContext oActionCallingContext)
     {
-      Test.Library.Test.Normal();
+      Test.Library.MergeTest.Normal();
 
       return true;
     }

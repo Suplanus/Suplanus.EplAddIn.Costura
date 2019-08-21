@@ -17,7 +17,7 @@ namespace Suplanus.EplAddIn.AddOn2
 
     public bool Execute(ActionCallingContext oActionCallingContext)
     {
-      Test.Library.Test.Normal();
+      Test.Library.MergeTest.Normal();
 
       return true;
     }
